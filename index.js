@@ -12,6 +12,12 @@ document.querySelector(".operators").addEventListener("click" ,(e) => {
         display.textContent = "";
         return;
     }
+    if (e.target.classList.contains("cut")) {
+         let expression = display.textContent;
+         expression = expression.slice(0, -1);
+         display.textContent = expression
+         return;
+    }
     else{
         display.textContent += e.target.textContent
         console.log(display.textContent)
@@ -33,5 +39,6 @@ document.querySelector(".equal").addEventListener("click", (e)=>{
     display.textContent = result
    
 })
+
 
 

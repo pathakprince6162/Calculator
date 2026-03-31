@@ -44,7 +44,19 @@ body{
     font-weight: 600;
 }
 .signs{
-    height: 50px;
+    height: 39px;
+    width: 50px;
+    background-color: green;
+    margin: 3px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.cut{
+    height: 39px;
     width: 50px;
     background-color: green;
     margin: 3px;
