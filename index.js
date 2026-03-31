@@ -1,7 +1,7 @@
  let display = document.querySelector(".display")
 
 document.querySelector(".numbers").addEventListener("click" ,(e) => {
-
+    
     display.textContent += e.target.textContent
     console.log(display.textContent)
 })
@@ -22,7 +22,6 @@ document.querySelector(".operators").addEventListener("click" ,(e) => {
         display.textContent += e.target.textContent
         console.log(display.textContent)
     }
-    
 })
 
 
